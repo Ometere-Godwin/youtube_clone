@@ -4,7 +4,6 @@ import { Box } from "@mui/material";
 import Videos from "./Videos";
 import ChannelCard from "./ChannelCard";
 import { fetchFromAPI } from "../utils/FetchFromApi";
-import zIndex from "@mui/material/styles/zIndex";
 
 export default function () {
   const [channelDetail, setChannelDetail] = useState(null);
